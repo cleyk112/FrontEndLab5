@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="second-task">
+    <input type="color" id="c" tabindex=-1 >
+        <div class="main-square">
+            <div class="square">1</div>
+            <div class="square">2</div>
+            <div class="square">3</div>
+            <div class="square">4</div>
+            <div class="square">5</div>
+            <div class="square">6</div>
+            
+            <div class="square">7</div>
+            <div class="square">8</div>
+            <div class="square">9</div>
+            <div class="square">10</div>
+            <div class="square">11</div>
+            <div class="square">12</div>
+
+            
+            <div class="square" id="13">13</div>
+            <div class="square">14</div>
+            <div class="square">15</div>
+            <div class="square">16</div>
+            <div class="square">17</div>
+            <div class="square">18</div>
+
+            <div class="square">19</div>
+            <div class="square">20</div>
+            <div class="square">21</div>
+            <div class="square">22</div>
+            <div class="square">23</div>
+            <div class="square">24</div>
+
+            <div class="square">25</div>
+            <div class="square">26</div>
+            <div class="square">27</div>
+            <div class="square">28</div>
+            <div class="square">29</div>
+            <div class="square">30</div>
+
+            <div class="square">31</div>
+            <div class="square">32</div>
+            <div class="square">33</div>
+            <div class="square">34</div>
+            <div class="square">35</div>
+            <div class="square">36</div>
+
+        </div>
+        
+   </div>
+   <div class="first-task">
+    <form action="" style="text-align:center;">
+        <h2>Форма введення даних</h2>
+        <input type="text" placeholder="ПІБ" required id="name">
+        <input type="text" placeholder="Група" required id="group">
+        <input type="tel" placeholder="Телефон" required pattern="\d{10,12}" id="tel">
+        <input type="text" placeholder="Факультет" required id="fac">
+        <input type="text" placeholder="Адреса" required id="address">
+        <input type="submit" value="Submit" onclick="updData()">
+    </form>
+    
+    <div class="input-data">
+        <h3>Введені дані</h3>
+        <h4>ПІБ: <span id="name-span"></span></h4>
+        <h4>Група: <span id="group-span"</span></h4>
+        <h4>Телефон: <span id="tel-span"></span></h4>
+        <h4>Факультет: <span id="fac-span"></span></h4>
+        <h4>Адреса: <span id="address-span"></span></h4>
+
+    </div>
+   </div>
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>
